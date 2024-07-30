@@ -1,0 +1,144 @@
+{
+    "name": "Stanley",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Stanley - curious",
+    "headerTaglineThree": "designer and devloper",
+    "headerTaglineFour": " based in California, USA.",
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/stanely86"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/stanely86/"
+        },
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:stanely8662@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "MovieBuff",
+            "description": "Design and Develop a movie information website, implementing the knowledge of utilizing API, NextJS framework, and ChartJS package.",
+            "imageSrc": "images/MovieBuff.png",
+            "url": "https://stanely86.github.io/Movie/"
+        },
+        {
+            "id": "2",
+            "title": "Mrd.Cash",
+            "description": "Established the new version official website for the company. Increased organic users to 10,000/month for the company's website by executing SEO strategies, estimating USD 4000/month advertisement performance.",
+            "imageSrc": "images/Mrd.cash.png",
+            "url": "https://mrd.cash/"
+        },
+        {
+            "id": "3",
+            "title": "ASDVC Web Developer Internship Program",
+            "description": "Executed UI expertise to design the websites via WIX to introduce the impactful conferences attended by ASDVC congresses.",
+            "imageSrc": "images/ASDVC.png",
+            "url": "https://www.asdvc.org/copy-of-general-assembly-ssccc"
+        },
+        {
+            "id": "4",
+            "title": "HTML/CSS/ JavaScript/ React Projects",
+            "description": "Gathered all practice projects under various programming languages and documented my progress in learning web development.",
+            "imageSrc": "images/Projects.png",
+            "url": "https://ver1-to-do-list.netlify.app/"
+        },
+        {
+            "id": "5",
+            "title": "Art Sphere",
+            "description": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress.",
+            "imageSrc": "images/ArtSphere.png",
+            "url": "https://artsphere.org/"
+        },
+        {
+            "id": "6",
+            "title": "Zoo Task Manager",
+            "description": "Designed an educational App, Zoo Task Manager with Figma, aiming to boost students' productivity by combining the idea of cultivating their own zoo and their study todo list.",
+            "imageSrc": "images/task.png",
+            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1"
+        }
+    ],
+    "services": [
+        {
+            "id": "1",
+            "title": "Art Direction",
+            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+        },
+        {
+            "id": "2",
+            "title": "Branding",
+            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+        },
+        {
+            "id": "3",
+            "title": "Web Design",
+            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+        },
+        {
+            "id": "4",
+            "title": "3D Design",
+            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+        }
+    ],
+    "aboutpara": "With a solid foundation built over two years of hands-on experience in digital marketing, my previous role centered on web design, SEO, and website analysis. This exposure ignited my interest in UI/UX and web development concepts, prompting my decision to pursue studies in computer science at DVC. My goal is to augment my skills and transition into a role as a web developer, combining my marketing insights with a proficiency in web development for a holistic approach to digital solutions.",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, product designer.",
+        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "March 2022 - Present",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Bullet One, Bullet Two"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "July 2020 - March 2022",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "July 2020 - March 2022",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+            }
+        ],
+        "education": {
+            "universityName": "University X",
+            "universityDate": "2016-2020",
+            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Go"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs"
+        ],
+        "others": [
+            "Figma",
+            "AdobeXD",
+            "AWS"
+        ]
+    }
+}
