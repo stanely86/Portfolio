@@ -94,41 +94,57 @@
     "aboutpara": "With a solid foundation built over two years of hands-on experience in digital marketing, my previous role centered on web design, SEO, and website analysis. This exposure ignited my interest in UI/UX and web development concepts, prompting my decision to pursue studies in computer science at DVC. My goal is to augment my skills and transition into a role as a web developer, combining my marketing insights with a proficiency in web development for a holistic approach to digital solutions.",
     "resume": {
         "tagline": "👋  I'm a software engineer, product designer.",
-        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "description": "2+ years in digital marketing, skilled in web design, SEO, and analysis. Transitioning to web development with a focus on UI/UX after pursuing computer science studies at DVC for a holistic approach to digital solutions.",
         "experiences": [
             {
                 "id": "1",
-                "dates": "March 2022 - Present",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Bullet One, Bullet Two"
+                "dates": "Feb2024 - Present",
+                "type": "Volunteering",
+                "position": "Remote Web Designer - at Art Sphere Inc",
+                "bullets": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress."
             },
             {
-                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "July 2020 - March 2022",
-                "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+                "id": "2",
+                "dates": "Jul 2020 - Present",
+                "type": "Part Time",
+                "position": "Short Video Editor at Digital Origin LLC",
+                "bullets": "Design and create short videos about MS OFFICE tips via Adobe Premiere, growing Instagram followers by 100k, and reaching users surpassed 1M once."
             },
             {
-                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-                "dates": "July 2020 - March 2022",
+                "id": "3",
+                "dates": "Aug 2021 - Apr 2023",
                 "type": "Full Time",
-                "position": "Frontend Engineer at X",
-                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+                "position": "Marketing Specialist at Mrd.Cash LLC",
+                "bullets": "Designed and launched the latest version of the company's official website using Elementor on WordPress. | Developed and implemented SEO strategies, resulting in a monthly increase of organic website traffic to 10,000 users. Estimated advertising performance at USD 4000 per month.| Produced 60+ videos, and increased organic users to 2,500/month for the YouTube channel by creating videos."
+            },
+            {
+                "id": "4",
+                "dates": "Dec 2021 - May 2022",
+                "type": "Part Time",
+                "position": "Marketing Assistant at Checker Technology LLC",
+                "bullets": "Executed PPC advertising campaigns on Google Ads for 15 companies, including Weddings, Dentistry, and Photography. Average CTR surpassed 4%. |Produced various advertising videos that highlighted each customer's features to boost revenue."
+            },
+            {
+                "id": "5",
+                "dates": "Apr 2020 - Aug 2022",
+                "type": "Part Time",
+                "position": "Social Media Intern at Checker Sweetrans Translation",
+                "bullets": "Developed content strategy and visual design to increase 30% of interaction on Facebook and Instragam."
             }
         ],
         "education": {
-            "universityName": "University X",
-            "universityDate": "2016-2020",
-            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            "universityName1": "Diablo Valley College",
+            "universityDate1": "．2023-2024",
+            "universityPara1": "．Computer Science",
+            "universityName2": "National Kaohsiung University of Science and Technology",
+            "universityDate2": "．2016-2020",
+            "universityPara2": "．Intelligent Business"
         },
         "languages": [
             "Javascript",
             "HTML5",
             "CSS",
-            "Python",
-            "Go"
+            "Python"
         ],
         "frameworks": [
             "React",
@@ -137,8 +153,13 @@
         ],
         "others": [
             "Figma",
-            "AdobeXD",
-            "AWS"
+            "Tableau",
+            "WordPress",
+            "Google Analytics",
+            "SEO",
+            "Google Ads",
+            "Adobe Premiere",
+            "Adobe PhotoShop"
         ]
     }
 }
