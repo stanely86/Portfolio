@@ -31,42 +31,48 @@
             "title": "MovieBuff",
             "description": "Design and Develop a movie information website, implementing the knowledge of utilizing API, NextJS framework, and ChartJS package.",
             "imageSrc": "images/MovieBuff.png",
-            "url": "https://stanely86.github.io/Movie/"
+            "url": "https://stanely86.github.io/Movie/",
+            "tag":"NextJS|Typescript| TailwindCSS| ChartJS | API"
         },
         {
             "id": "2",
             "title": "Mrd.Cash",
             "description": "Established the new version official website for the company. Increased organic users to 10,000/month for the company's website by executing SEO strategies, estimating USD 4000/month advertisement performance.",
             "imageSrc": "images/Mrd.cash.png",
-            "url": "https://mrd.cash/"
+            "url": "https://mrd.cash/",
+            "tag":"WordPress | SEO| HTML| CSS | Google Analytics"
         },
         {
             "id": "3",
             "title": "ASDVC Web Developer Internship Program",
             "description": "Executed UI expertise to design the websites via WIX to introduce the impactful conferences attended by ASDVC congresses.",
             "imageSrc": "images/ASDVC.png",
-            "url": "https://www.asdvc.org/copy-of-general-assembly-ssccc"
+            "url": "https://www.asdvc.org/copy-of-general-assembly-ssccc",
+            "tag":"WIX | UI/UX| HTML| CSS"
         },
         {
             "id": "4",
             "title": "HTML/CSS/ JavaScript/ React Projects",
             "description": "Gathered all practice projects under various programming languages and documented my progress in learning web development.",
             "imageSrc": "images/Projects.png",
-            "url": "https://ver1-to-do-list.netlify.app/"
+            "url": "https://ver1-to-do-list.netlify.app/",
+            "tag":"React| Javascript | Firebase| HTML| CSS"
         },
         {
             "id": "5",
             "title": "Art Sphere",
             "description": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress.",
             "imageSrc": "images/ArtSphere.png",
-            "url": "https://artsphere.org/"
+            "url": "https://artsphere.org/",
+            "tag":"WordPress| UI/UX| SEO| HTML| CSS"
         },
         {
             "id": "6",
             "title": "Zoo Task Manager",
             "description": "Designed an educational App, Zoo Task Manager with Figma, aiming to boost students' productivity by combining the idea of cultivating their own zoo and their study todo list.",
             "imageSrc": "images/task.png",
-            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1"
+            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1",
+            "tag":"Figma| UI/UX"
         }
     ],
     "services": [
@@ -101,7 +107,7 @@
                 "dates": "Feb2024 - Present",
                 "type": "Volunteering",
                 "position": "Remote Web Designer - at Art Sphere Inc",
-                "bullets": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress."
+                "bullets": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress."    
             },
             {
                 "id": "2",
@@ -149,7 +155,8 @@
         "frameworks": [
             "React",
             "Typescript",
-            "NodeJs"
+            "NodeJs",
+            "NextJS"
         ],
         "others": [
             "Figma",
