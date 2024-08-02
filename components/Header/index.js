@@ -7,6 +7,10 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
+const myLoader = ({ src }) => {
+  return `https://example.com/${src}`;
+};
+
 const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
@@ -44,6 +48,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                     }
                   >
                     <Image
+                      loader={myLoader}
                       className="h-6"
                       src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                       alt="Theme toggle"
@@ -55,6 +60,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
 
                 <Popover.Button>
                   <Image
+                    loader={myLoader}
                     className="h-5"
                     src={`/images/${!open
                         ? theme === "dark"
@@ -95,9 +101,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
                     Home
                   </Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
                   {showResume && (
                     <Button
                       onClick={() => router.push("/resume")}
@@ -152,6 +155,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
               <Image
+                loader={myLoader}
                 className="h-6"
                 src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 alt="Theme toggle"

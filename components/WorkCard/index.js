@@ -4,7 +4,9 @@ import Image from 'next/image';
 const WorkCard = ({ img, name, description, tag, onClick }) => {
   // Split the tag string into an array of tags, trimming any extra whitespace
   const tags = tag ? tag.split('|').map(t => t.trim()) : [];
-
+  const myLoader = ({ src }) => {
+    return `https://example.com/${src}`;
+  }; 
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
@@ -15,6 +17,7 @@ const WorkCard = ({ img, name, description, tag, onClick }) => {
         style={{ height: "600px" }}
       >
         <Image
+          loader={myLoader}
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
           src={img}
