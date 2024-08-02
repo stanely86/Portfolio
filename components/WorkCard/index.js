@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const WorkCard = ({ img, name, description, tag, onClick }) => {
   // Split the tag string into an array of tags, trimming any extra whitespace
@@ -13,10 +14,11 @@ const WorkCard = ({ img, name, description, tag, onClick }) => {
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         style={{ height: "600px" }}
       >
-        <img
+        <Image
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
           src={img}
+          layout='fill'
         />
       </div>
       <h1 className="mt-5 text-3xl font-medium">

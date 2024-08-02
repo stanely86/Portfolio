@@ -1,6 +1,7 @@
 import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
+import Image from 'next/image';
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
@@ -42,16 +43,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                       setTheme(theme === "dark" ? "light" : "dark")
                     }
                   >
-                    <img
+                    <Image
                       className="h-6"
                       src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                       alt="Theme toggle"
+                      width={24} // Recommended for layout='intrinsic' or 'fixed'
+                      height={24} // Recommended for layout='intrinsic' or 'fixed'
                     />
                   </Button>
                 )}
 
                 <Popover.Button>
-                  <img
+                  <Image
                     className="h-5"
                     src={`/images/${!open
                         ? theme === "dark"
@@ -62,13 +65,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                           : "cancel-white.svg"
                       }`}
                     alt="Menu toggle"
+                    width={20} // Recommended for layout='intrinsic' or 'fixed'
+                    height={20} // Recommended for layout='intrinsic' or 'fixed'
                   />
                 </Popover.Button>
               </div>
             </div>
             <Popover.Panel
-              className={`absolute right-0 z-10 w-11/12 p-4 ${theme === "dark" ? "bg-slate-800" : "bg-white"
-                } shadow-md rounded-md`}
+              className={`absolute right-0 z-10 w-11/12 p-4 ${theme === "dark" ? "bg-slate-800" : "bg-white"} shadow-md rounded-md`}
             >
               {!isResume ? (
                 <div className="grid grid-cols-1">
@@ -147,10 +151,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
             <Button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
-              <img
+              <Image
                 className="h-6"
                 src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 alt="Theme toggle"
+                width={24} // Recommended for layout='intrinsic' or 'fixed'
+                height={24} // Recommended for layout='intrinsic' or 'fixed'
               />
             </Button>
           )}

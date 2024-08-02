@@ -40,4 +40,6 @@ const Button = forwardRef(({ children, type, onClick, classes }, ref) => {
   );
 });
 
+Button.displayName = 'Button'; 
+
 export default Button;
