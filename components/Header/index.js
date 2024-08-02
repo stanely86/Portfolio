@@ -8,7 +8,7 @@ import Button from "../Button";
 import data from "../../data/portfolio.json";
 
 const myLoader = ({ src }) => {
-  return `https://example.com/${src}`;
+  return `https://stanely86.github.io/Portfolio//${src}`;
 };
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
@@ -50,7 +50,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                     <Image
                       loader={myLoader}
                       className="h-6"
-                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                      src={`images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                       alt="Theme toggle"
                       width={24} // Recommended for layout='intrinsic' or 'fixed'
                       height={24} // Recommended for layout='intrinsic' or 'fixed'

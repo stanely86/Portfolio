@@ -5,7 +5,7 @@ const WorkCard = ({ img, name, description, tag, onClick }) => {
   // Split the tag string into an array of tags, trimming any extra whitespace
   const tags = tag ? tag.split('|').map(t => t.trim()) : [];
   const myLoader = ({ src }) => {
-    return `https://example.com/${src}`;
+    return `https://stanely86.github.io/Portfolio//${src}`;
   }; 
   return (
     <div
