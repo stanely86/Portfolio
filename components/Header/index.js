@@ -17,6 +17,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
     setMounted(true);
   }, []);
 
+  // Render nothing until mounted on the client
+  if (!mounted) {
+    return null;
+  }
+
   return (
     <>
       <Popover className="block tablet:hidden mt-5">
@@ -39,9 +44,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                   >
                     <img
                       className="h-6"
-                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"
-                        }`}
-                    ></img>
+                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                      alt="Theme toggle"
+                    />
                   </Button>
                 )}
 
@@ -56,7 +61,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                           ? "cancel.svg"
                           : "cancel-white.svg"
                       }`}
-                  ></img>
+                    alt="Menu toggle"
+                  />
                 </Popover.Button>
               </div>
             </div>
@@ -69,10 +75,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
                   <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
                   {showResume && (
-                    <Button
-                        onClick={() => router.push("/resume")
-                      }
-                    >
+                    <Button onClick={() => router.push("/resume")}>
                       Resume
                     </Button>
                   )}
@@ -113,8 +116,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
       </Popover>
 
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${theme === "light" && "bg-white"
-          } dark:text-white top-0 z-10 tablet:flex`}
+        className={`mt-10 hidden flex-row items-center justify-between sticky ${
+          theme === "light" && "bg-white"
+        } dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
           onClick={() => router.push("/")}
@@ -123,23 +127,19 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
           {name}.
         </h1>
         <div className="flex">
-          {isResume ?
-            <Button onClick={()=>router.push("/")}>Home</Button> :
+          {isResume ? (
+            <Button onClick={() => router.push("/")}>Home</Button>
+          ) : (
             <>
               <Button onClick={handleWorkScroll}>Work</Button>
               <Button onClick={handleAboutScroll}>About</Button>
             </>
-          }
-
+          )}
           {showResume && (
-            <Button
-              onClick={() => router.push("/resume")}
-              classes="first:ml-1"
-            >
+            <Button onClick={() => router.push("/resume")} classes="first:ml-1">
               Resume
             </Button>
           )}
-
           <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
             Contact
           </Button>
@@ -150,7 +150,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isResume }) => {
               <img
                 className="h-6"
                 src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-              ></img>
+                alt="Theme toggle"
+              />
             </Button>
           )}
         </div>
