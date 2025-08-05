@@ -2,8 +2,8 @@
     "name": "Stanley",
     "headerTaglineOne": "Hello 👋",
     "headerTaglineTwo": "I'm Stanley - curious",
-    "headerTaglineThree": "designer and devloper",
-    "headerTaglineFour": " based in California, USA.",
+    "headerTaglineThree": "marketer and devloper",
+    "headerTaglineFour": " based in Taichung, Taiwan.",
     "showCursor": true,
     "showBlog": false,
     "darkMode": true,
@@ -97,45 +97,60 @@
             "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
         }
     ],
-    "aboutpara": "With a solid foundation built over two years of hands-on experience in digital marketing, my previous role centered on web design, SEO, and website analysis. This exposure ignited my interest in UI/UX and web development concepts, prompting my decision to pursue studies in computer science at DVC. My goal is to augment my skills and transition into a role as a web developer, combining my marketing insights with a proficiency in web development for a holistic approach to digital solutions.",
+    "aboutpara": "I’m a digital marketer with 2+ years of experience in SEO, web analytics, PPC advertising, and content creation, now actively transitioning into the data analytics field. My background has equipped me with strong analytical thinking, data-driven decision making, and hands-on experience with tools like Google Analytics 4 (GA4), Google Search Console, and various advertising platforms.\n\n To deepen my data skills, I’ve completed certifications in Google Data Analytics, Python, SQL, and Tableau, and I’m currently building end-to-end data analysis projects using Python (Pandas, NumPy), SQL, and Tableau to strengthen my portfolio. My passion lies in using data to uncover insights, optimize business performance, and support strategic decisions.\n\n\n\n I’m excited to apply my combined marketing and analytical experience to solve real-world business problems, whether in marketing analytics, product analytics, or general data analysis roles.",
     "resume": {
         "tagline": "👋  I'm a software engineer, product designer.",
-        "description": "2+ years in digital marketing, skilled in web design, SEO, and analysis. Transitioning to web development with a focus on UI/UX after pursuing computer science studies at DVC for a holistic approach to digital solutions.",
+        "description": "2+ years of experience in SEO, web analytics, PPC advertising, and content creation, now actively transitioning into the data analytics field. My background has equipped me with strong analytical thinking, data-driven decision making, and hands-on experience with tools like Google Analytics 4 (GA4), Google Search Console, and various advertising platforms. I’m excited to apply my combined marketing and analytical experience to solve real-world business problems, whether in marketing analytics, product analytics, or general data analysis roles.",
         "experiences": [
             {
                 "id": "1",
-                "dates": "Feb2024 - Present",
-                "type": "Volunteering",
-                "position": "Remote Web Designer - at Art Sphere Inc",
-                "bullets": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress."    
+                "dates": "Jul 2024 - Present",
+                "type": "Freelance",
+                "position": "Traditional Chinese AI Fact checker - at Outlier AI",
+                "bullets": "Provided high-quality Traditional Chinese translations for diverse projects, ensuring cultural and contextual accuracy.|Wrote engaging and coherent Traditional Chinese content, including short stories, marketing copy, and technical documentation.|Evaluated AI-generated Traditional Chinese text for factual accuracy, language fluency, and adherence to client requirements.|Ranked AI-generated responses based on their relevance, accuracy, and alignment with user intent.|Collaborated on improving AI models by providing detailed feedback and insights into Traditional Chinese linguistic nuances."    
             },
-            {
+             {
                 "id": "2",
-                "dates": "Jul 2020 - Present",
-                "type": "Part Time",
-                "position": "Short Video Editor at Digital Origin LLC",
-                "bullets": "Design and create short videos about MS OFFICE tips via Adobe Premiere, growing Instagram followers by 100k, and reaching users surpassed 1M once."
+                "dates": "Jan 2020 - Present",
+                "type": "Freelance",
+                "position": "Content Marketing Specialist (Short-Form) - at Digital Origin LLC",
+                "bullets": "Created short videos, grew Instagram followers by 100K, and achieved over 1M monthly views, as well as video content including AI tools introductions, MS Office tutorials, useful mobile apps, and entrepreneurial stories.|Managed media performances across TikTok, Instagram, Facebook, and YouTube, analyzing data to inform topic planning and revisions.|Monitored competitors' content strategies and results, proactively adapting video presentation formats to enhance engagement."
             },
             {
                 "id": "3",
+                "dates": "Feb 2024 - Nov 2024",
+                "type": "Volunteering",
+                "position": "(Remote) Web Designer - at Art Sphere Inc.",
+                "bullets": "Monitor, analyze, and report on website traffic performance, utilizing analytics tools GA4, and GSC to refine and optimize SEO strategies.| Enhance the website's internal linking structure to improve SEO by creating diverse themed pages to facilitate material downloads for users with WordPress.| Collaborate with team partners to design and assign various website projects for yearly goals.| Guide new volunteers and support colleagues in resolving technical issues.| Utilized the Elementor plugin to design and implement new layouts to enhance web responsiveness, maintaining website style consistency and alignment by HTML/CSS."
+            },
+              {
+                "id": "4",
                 "dates": "Aug 2021 - Apr 2023",
                 "type": "Full Time",
-                "position": "Marketing Specialist at Mrd.Cash LLC",
-                "bullets": "Designed and launched the latest version of the company's official website using Elementor on WordPress. | Developed and implemented SEO strategies, resulting in a monthly increase of organic website traffic to 10,000 users. Estimated advertising performance at USD 4000 per month.| Produced 60+ videos, and increased organic users to 2,500/month for the YouTube channel by creating videos."
+                "position": "Marketing Specialist - at Mrd.Cash LLC",
+                "bullets": "Formulated and implemented SEO strategies, resulting in a monthly increase of organic website traffic to 10,000 users. Estimated advertising performance at USD 4000 per month.|Designed, created, and implemented content strategies for 60+ videos to increase organic viewers to 2,500/month for the YouTube channel.|Established Locker Studio dashboards to integrate data from the website, social media, and channels for supervisors and stakeholders to recognize marketing performance in real-time.|Managed various types of advertising channels, like PPC including Google ads, Microsoft Bing, and Yahoo Native, and social media including Facebook, Instagram, and Line.|Planned and executed content writing, graphic design, and video editing on social media to maximize content marketing results.|Crafted articles with optimized reading paths to simulate and enhance website conversion rates.|Developed and designed the latest version of the company's official website using Elementor on WordPress."
             },
-            {
-                "id": "4",
-                "dates": "Dec 2021 - May 2022",
-                "type": "Part Time",
-                "position": "Marketing Assistant at Checker Technology LLC",
-                "bullets": "Executed PPC advertising campaigns on Google Ads for 15 companies, including Weddings, Dentistry, and Photography. Average CTR surpassed 4%. |Produced various advertising videos that highlighted each customer's features to boost revenue."
-            },
+           
             {
                 "id": "5",
+                "dates": "Dec 2021 - May 2022",
+                "type": "Part Time",
+                "position": "Marketing Assistant - at Checker Technology LLC",
+                "bullets": " Executed PPC advertising campaigns for 15 companies, including Weddings, Dentistry, and Photography. Average CTR surpassed 4%|Produced various advertising videos that highlighted each customer's features to boost revenue."
+            },
+            {
+                "id": "6",
                 "dates": "Apr 2020 - Aug 2022",
                 "type": "Part Time",
-                "position": "Social Media Intern at Checker Sweetrans Translation",
-                "bullets": "Developed content strategy and visual design to increase 30% of interaction on Facebook and Instragam."
+                "position": "Social Media Intern - at Sweetrans Translation",
+                "bullets": "Planned weekly interactive posts and Performed copywriting and video and image production on social media and website.| Designed visuals on web website pages including banners and informative graphs using Adobe Photoshop or Canvas.| Modified website layout by revising HTML and CSS code through CMS.| Optimized content strategy and visual design to increase engagement rate by 30% in a month on social media."
+            },
+            {
+                "id": "7",
+                "dates": "Apr 2020 - Aug 2022",
+                "type": "Part Time",
+                "position": "Marketing Intern - at Gospel Tech INC",
+                "bullets": "Planned and executed online and offline marketing campaigns for various businesses|Designed social media posts, print posters, online platform banners, and websites for different merchants|Managed the company's YouTube channel, wrote video scripts for business collaborations, and handled production, post-production, and editing processes"
             }
         ],
         "education": {
@@ -150,7 +165,8 @@
             "Javascript",
             "HTML5",
             "CSS",
-            "Python"
+            "Python",
+            "SQL"
         ],
         "frameworks": [
             "React",
