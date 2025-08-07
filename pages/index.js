@@ -1,6 +1,5 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
@@ -22,6 +21,8 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+
+  const [activeTab, setActiveTab] = useState("frontend");
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -95,18 +96,76 @@ export default function Home() {
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
-
+          {/* Tabs UI */}
+          <div style={{ display: "flex", gap: "1rem", margin: "1rem 0" }}>
+            <button
+              onClick={() => setActiveTab("frontend")}
+              style={{
+                padding: "0.5rem 1rem",
+                borderTop: "none",
+                borderLeft: "none",
+                borderRight: "none",
+                borderBottom: activeTab === "frontend" ? "2px solid #0070f3" : "none",
+                background: "none",
+                cursor: "pointer",
+                fontWeight: activeTab === "frontend" ? "bold" : "normal",
+              }}
+            >
+              UI/UX/Frontend
+            </button>
+            <button
+              onClick={() => setActiveTab("datascience")}
+              style={{
+                padding: "0.5rem 1rem",
+                borderTop: "none",
+                borderLeft: "none",
+                borderRight: "none",
+                borderBottom: activeTab === "datascience" ? "2px solid #0070f3" : "none",
+                background: "none",
+                cursor: "pointer",
+                fontWeight: activeTab === "datascience" ? "bold" : "normal",
+              }}
+            >
+              Data Science
+            </button>
+            <button
+              onClick={() => setActiveTab("marketing")}
+              style={{
+                padding: "0.5rem 1rem",
+                borderTop: "none",
+                borderLeft: "none",
+                borderRight: "none",
+                borderBottom: activeTab === "marketing" ? "2px solid #0070f3" : "none",
+                background: "none",
+                cursor: "pointer",
+                fontWeight: activeTab === "marketing" ? "bold" : "normal",
+              }}
+            >
+              Content Marketing
+            </button>
+          </div>
+          {/* Tab Content */}
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-            {data.projects.map((project) => (
-              <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                tag={project.tag}
-                onClick={() => window.open(project.url)}
-              />
-            ))}
+            {data.projects.filter(
+              (project) => project.category === activeTab
+            ).length > 0 ? (
+              data.projects
+                .filter((project) => project.category === activeTab)
+                .map((project) => (
+                  <WorkCard
+                    key={project.id}
+                    img={project.imageSrc}
+                    name={project.title}
+                    description={project.description}
+                    tag={project.tag}
+                    onClick={() => window.open(project.url)}
+                  />
+                ))
+            ) : (
+              <div className="col-span-2 text-center text-gray-500">
+                No projects yet.
+              </div>
+            )}
           </div>
         </div>
 
@@ -122,7 +181,7 @@ export default function Home() {
             ))}
           </div>
         </div> /*}
-        
+
         {/* This button should not go into production */}
         {process.env.NODE_ENV === "development" && (
           <div className="fixed bottom-5 right-5">
