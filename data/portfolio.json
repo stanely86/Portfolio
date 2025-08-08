@@ -32,16 +32,16 @@
             "description": "Design and Develop a movie information website, implementing the knowledge of utilizing API, NextJS framework, and ChartJS package.",
             "imageSrc": "/images/MovieBuff.png",
             "url": "https://movie-git-features-stanely86s-projects.vercel.app",
-            "tag":"NextJS|Typescript| TailwindCSS| ChartJS | API",
+            "tag": "NextJS|Typescript| TailwindCSS| ChartJS | API",
             "category": "frontend"
         },
         {
             "id": "2",
             "title": "Mrd.Cash",
-            "description": "Established the new version official website for the company. Increased organic users to 10,000/month for the company's website by executing SEO strategies, estimating USD 4000/month advertisement performance.",
+            "description": "Developed and designed the latest version of the company's official website using Elementor on WordPress.",
             "imageSrc": "/images/Mrd.cash.png",
             "url": "https://mrd.cash/",
-            "tag":"WordPress | SEO| HTML| CSS | Google Analytics",
+            "tag": "WordPress | SEO| HTML| CSS | Google Analytics",
             "category": "frontend"
         },
         {
@@ -50,7 +50,7 @@
             "description": "Executed UI expertise to design the websites via WIX to introduce the impactful conferences attended by ASDVC congresses.",
             "imageSrc": "/images/ASDVC.png",
             "url": "https://www.asdvc.org/copy-of-general-assembly-ssccc",
-            "tag":"WIX | UI/UX| HTML| CSS",
+            "tag": "WIX | UI/UX| HTML| CSS",
             "category": "frontend"
         },
         {
@@ -59,7 +59,7 @@
             "description": "Gathered all practice projects under various programming languages and documented my progress in learning web development.",
             "imageSrc": "/images/Projects.png",
             "url": "https://67085d73e749999dd3f9543d--ver1-to-do-list.netlify.app/",
-            "tag":"React| Javascript | Firebase| HTML| CSS",
+            "tag": "React| Javascript | Firebase| HTML| CSS",
             "category": "frontend"
         },
         {
@@ -68,7 +68,7 @@
             "description": "Develop diverse themed pages to enhance the website's internal linking structure, improving SEO performance and facilitating material downloads for users with WordPress.",
             "imageSrc": "/images/ArtSphere.png",
             "url": "https://artsphere.org/",
-            "tag":"WordPress| UI/UX| SEO| HTML| CSS",
+            "tag": "WordPress| UI/UX| SEO| HTML| CSS",
             "category": "frontend"
         },
         {
@@ -77,35 +77,89 @@
             "description": "Designed an educational App, Zoo Task Manager with Figma, aiming to boost students' productivity by combining the idea of cultivating their own zoo and their study todo list.",
             "imageSrc": "/images/task.png",
             "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1",
-            "tag":"Figma| UI/UX",
+            "tag": "Figma| UI/UX",
             "category": "frontend"
         },
         {
             "id": "7",
             "title": "Instagram Engagement Analysis | Personal Project",
             "description": "• Extracted and cleaned social media data from Meta Business Suite • Transformed engagement metrics (likes, comments, reach) using Python (Pandas, NumPy) • Created an interactive visualization in Tableau to identify top-performing posts and audience trends",
-            "imageSrc": "/images/SPIDERMAN.png",
-            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1",
-            "tag":"Python | Pandas | Tableau | NumPy | Data Visualization | Data Analysis | Data Cleaning",
+            "imageSrc": "/images/IGPerformance.png",
+            "url": "https://github.com/stanely86/Instagram-Performance-Analysis-Using-Python-Tableau",
+            "tag": "Python | Pandas | Tableau | NumPy | Data Visualization | Data Analysis | Data Cleaning",
             "category": "datascience"
         },
         {
             "id": "8",
             "title": "SQL50 Badge – LeetCode",
             "description": "Completed 50 SQL problems covering subqueries, joins, and aggregations",
-            "imageSrc": "/images/ArtSphere.png",
-            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1",
-            "tag":"SQL | Data Analysis | Data Cleaning",
+            "imageSrc": "/images/SQL50.png",
+            "url": "https://leetcode.com/u/stanely86/",
+            "tag": "SQL | Data Analysis | Data Cleaning",
             "category": "datascience"
         },
         {
             "id": "9",
             "title": "Data Analysis with Python",
             "description": "Completed a comprehensive suite of five data analysis projects through freeCodeCamp’s Python certification. Leveraged libraries such as Pandas, Matplotlib, and NumPy to extract insights, visualize datasets, and apply statistical techniques. Projects included time series analysis, sea level prediction, and medical data visualization, showcasing end-to-end analytical workflows",
-            "imageSrc": "/images/SPIDERMAN.png",
-            "url": "https://www.figma.com/design/tEJsbO9jEKAiRr5vTWv3EA/Zoo-Task-Manager?node-id=0-1&t=L0U7AB6aRR3uNIzx-1",
-            "tag":"Python | Pandas | Matplotlib | NumPy | Data Visualization | Data Analysis | Data Cleaning",
+            "imageSrc": "/images/freecode.jpg",
+            "url": "https://www.freecodecamp.org/certification/fcc-0715184e-5896-422b-855b-8c10289397a4/data-analysis-with-python-v7",
+            "tag": "Python | Pandas | Matplotlib | NumPy | Data Visualization | Data Analysis | Data Cleaning",
             "category": "datascience"
+        },
+        {
+            "id": "10",
+            "title": "Mrd.Cash | SEO",
+            "description": "Formulated and implemented SEO strategies, resulting in a monthly increase of organic website traffic to 10,000 users. Estimated advertising performance at USD 4000 per month.",
+            "imageSrc": "/images/Mrd.cash.png",
+            "url": "https://mrd.cash/",
+            "tag": "WordPress | SEO| HTML| CSS | Google Analytics",
+            "category": "marketing"
+        },
+        {
+            "id": "11",
+            "title": "Handy AI software & Easy Ecommerce | Short-video",
+            "description": "Creating, editing, and planning short videos regarding powerful AI software and the Microsoft Office tutorials. Produced 100+ videos, grown 120k Instagram followers, and reached 1M monthly impressions.",
+            "imageSrc": "/images/gemini3d.png",
+            "url": "https://www.instagram.com/reel/DL7GXT2hdK3/",
+            "tag": "Video Editing | Social Media Marketing | Content Creation",
+            "category": "marketing"
+        },
+        {
+            "id": "12",
+            "title": "3 min mortgage tips | Video",
+            "description": "Designed, created, and implemented content strategies for 60+ videos to increase organic viewers to 2,500/month for the YouTube channel.",
+            "imageSrc": "/images/mortgage.png",
+            "url": "https://www.youtube.com/channel/UCze8MDu2rCd-1QPsj5onk1g/",
+            "tag": "Video Editing | Social Media Marketing | Content Creation",
+            "category": "marketing"
+        },
+        {
+            "id": "13",
+            "title": "Checker Technology | PPC & Video Advertising",
+            "description": "Executed PPC & Video advertising campaign for 15 companies, including Wedding, Dentistry, Photography. Average CTR surpassed 4%.",
+            "imageSrc": "/images/checker.webp",
+            "url": "https://drive.google.com/drive/u/1/folders/1NXzCu8kjOl9dG6KJONKRw0kAAa5uTMJa",
+            "tag": "PPC | Video Advertising | Content Creation",
+            "category": "marketing"
+        },
+        {
+            "id": "14",
+            "title": "Social Media Marketing | Sweetrans Translation",
+            "description": "Optimized content strategy and visual design to increase engagement rate by 30% in a month on social media.",
+            "imageSrc": "/images/SWEETTRANS.png",
+            "url": "https://drive.google.com/drive/u/1/folders/1NXzCu8kjOl9dG6KJONKRw0kAAa5uTMJa",
+            "tag": "Social Media Marketing | Content Creation | Graphic Design",
+            "category": "marketing"
+        },
+        {
+            "id": "15",
+            "title": "Video Marketing | Gospel Tech INC.",
+            "description": "Planned and executed online and offline marketing campaigns for various businesses",
+            "imageSrc": "/images/Gospel.png",
+            "url": "hhttps://youtu.be/LCUQYF5hqE8?si=knsNswO4P59BC85V",
+            "tag": "Video Editing | Social Media Marketing | Content Creation",
+            "category": "marketing"
         }
     ],
     "services": [
@@ -140,9 +194,9 @@
                 "dates": "Jul 2024 - Present",
                 "type": "Freelance",
                 "position": "Traditional Chinese AI Fact checker - at Outlier AI",
-                "bullets": "Provided high-quality Traditional Chinese translations for diverse projects, ensuring cultural and contextual accuracy.|Wrote engaging and coherent Traditional Chinese content, including short stories, marketing copy, and technical documentation.|Evaluated AI-generated Traditional Chinese text for factual accuracy, language fluency, and adherence to client requirements.|Ranked AI-generated responses based on their relevance, accuracy, and alignment with user intent.|Collaborated on improving AI models by providing detailed feedback and insights into Traditional Chinese linguistic nuances."    
+                "bullets": "Provided high-quality Traditional Chinese translations for diverse projects, ensuring cultural and contextual accuracy.|Wrote engaging and coherent Traditional Chinese content, including short stories, marketing copy, and technical documentation.|Evaluated AI-generated Traditional Chinese text for factual accuracy, language fluency, and adherence to client requirements.|Ranked AI-generated responses based on their relevance, accuracy, and alignment with user intent.|Collaborated on improving AI models by providing detailed feedback and insights into Traditional Chinese linguistic nuances."
             },
-             {
+            {
                 "id": "2",
                 "dates": "Jan 2020 - Present",
                 "type": "Freelance",
@@ -156,14 +210,13 @@
                 "position": "(Remote) Web Designer - at Art Sphere Inc.",
                 "bullets": "Monitor, analyze, and report on website traffic performance, utilizing analytics tools GA4, and GSC to refine and optimize SEO strategies.| Enhance the website's internal linking structure to improve SEO by creating diverse themed pages to facilitate material downloads for users with WordPress.| Collaborate with team partners to design and assign various website projects for yearly goals.| Guide new volunteers and support colleagues in resolving technical issues.| Utilized the Elementor plugin to design and implement new layouts to enhance web responsiveness, maintaining website style consistency and alignment by HTML/CSS."
             },
-              {
+            {
                 "id": "4",
                 "dates": "Aug 2021 - Apr 2023",
                 "type": "Full Time",
                 "position": "Marketing Specialist - at Mrd.Cash LLC",
                 "bullets": "Formulated and implemented SEO strategies, resulting in a monthly increase of organic website traffic to 10,000 users. Estimated advertising performance at USD 4000 per month.|Designed, created, and implemented content strategies for 60+ videos to increase organic viewers to 2,500/month for the YouTube channel.|Established Locker Studio dashboards to integrate data from the website, social media, and channels for supervisors and stakeholders to recognize marketing performance in real-time.|Managed various types of advertising channels, like PPC including Google ads, Microsoft Bing, and Yahoo Native, and social media including Facebook, Instagram, and Line.|Planned and executed content writing, graphic design, and video editing on social media to maximize content marketing results.|Crafted articles with optimized reading paths to simulate and enhance website conversion rates.|Developed and designed the latest version of the company's official website using Elementor on WordPress."
             },
-           
             {
                 "id": "5",
                 "dates": "Dec 2021 - May 2022",
